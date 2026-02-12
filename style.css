@@ -347,7 +347,7 @@ html, body {
 #projects-panel .projects-column p,
 #projects-panel .projects-column button.project-btn {
   line-height: 1.3;
-  min-height: 2.6em; /* 2 lines */
+  min-height: 1.9em; /* 2 lines */
   display: flex;
   align-items: left;
 }
@@ -571,4 +571,5 @@ html, body {
 #mobile-project img {
   touch-action: pan-y !important;
 }
+
 
