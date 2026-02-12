@@ -148,8 +148,8 @@ const MAX_SCALE = IS_MOBILE ? 3.0 : 2.0;
 const PAN_EASE = IS_MOBILE ? 0.12 : 0.07;
 const ZOOM_EASE = 0.05;
 
-const FLOAT_SPEED   = IS_MOBILE ? 0.22 : 0.12;
-const FLOAT_SMOOTH  = IS_MOBILE ? 0.035 : 0.02;
+const FLOAT_SPEED   = IS_MOBILE ? 0.35 : 0.12;
+const FLOAT_SMOOTH  = IS_MOBILE ? 0.045 : 0.02;
 
 
 let activeProject = null;
@@ -1167,3 +1167,4 @@ window.addEventListener("load", () => {
   projectDescription.style.top = "50%";
   projectDescription.style.transform = "translateY(-50%)"; // Reapply center positioning
 });
+
